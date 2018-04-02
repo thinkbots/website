@@ -3,14 +3,8 @@ import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faHeart from '@fortawesome/fontawesome-free-solid'
 
-import SocialIconLink from '../Header/SocialIconLink'
-
-const social_icons = [
-  { name: 'facebook-f', link: '//facebook.com/thinkbotsIO' },
-  { name: 'github', link: '//github.com/thinkbots' },
-  { name: 'twitter', link: '//twitter.com/ThinkbotsIO' },
-  { name: 'linkedin-in', link: '//www.linkedin.com/company/thinkbots' },
-]
+import SocialIconLink from '../SocialIcons'
+import social_icons from '../SocialIcons/social-icons.yml'
 
 const FooterTop = () => (
   <section className="content-block-nopad bg-deepocean footer-wrap-1-1">
@@ -36,10 +30,10 @@ const FooterTop = () => (
           </p>
           <div className="social-icons">
             <ul className="nav nav-pills">
-              {social_icons.map(({ name, link }) => {
+              {social_icons.map(({ name, link, icon }) => {
                 return (
                   <li key={name}>
-                    <SocialIconLink link={link} icon={name} />
+                    <SocialIconLink link={link} icon={icon} />
                   </li>
                 )
               })}

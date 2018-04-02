@@ -1,16 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-import SocialIconLink from './SocialIconLink'
+import SocialIconLink from '../SocialIcons'
+import social_icons from '../SocialIcons/social-icons.yml'
 
 import logo from '../../images/logo_sm.png'
-
-const social_icons = [
-  { name: 'facebook-f', link: '//facebook.com/thinkbotsIO' },
-  { name: 'github', link: '//github.com/thinkbots' },
-  { name: 'twitter', link: '//twitter.com/ThinkbotsIO' },
-  { name: 'linkedin-in', link: '//www.linkedin.com/company/thinkbots' },
-]
 
 const Header = () => (
   <header id="header">
@@ -19,10 +12,10 @@ const Header = () => (
         <div className="col-sm-12 overflow">
           <div className="social-icons pull-right">
             <ul className="nav nav-pills">
-              {social_icons.map(({ name, link }) => {
+              {social_icons.map(({ name, link, icon }) => {
                 return (
                   <li key={name}>
-                    <SocialIconLink link={link} icon={name} />
+                    <SocialIconLink link={link} icon={icon} />
                   </li>
                 )
               })}

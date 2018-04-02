@@ -1,0 +1,12 @@
+- name: facebook
+  icon: facebook-f
+  link: //facebook.com/thinkbotsIO
+- name: github
+  icon: github
+  link: //github.com/thinkbots
+- name: twitter
+  icon: twitter
+  link: //twitter.com/ThinkbotsIO
+- name: linkedin
+  icon: linkedin-in
+  link: //www.linkedin.com/company/thinkbots
