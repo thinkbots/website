@@ -1,0 +1,15 @@
+- title: Web Development
+  icon: window
+  description: We specialize in Ruby on Rails application development. We build tailored-made responsive websites, SaaS, and eCommerce applications.
+
+- title: Mobile Apps
+  icon: app
+  description: Need to bring your ideas to the fingertips of your customers? We also build Android and iOS applications.
+
+- title: Digital Design
+  icon: monitor
+  description: Our design team works closely with our developers to ensure that every product we deliver is a perfect mix of good user interface and experience.
+
+- title: Training
+  icon: people
+  description: In partnership with Craft Academy, we offer a 12 week immersive Bootcamp that prepares students for a career in web development. <a href='//craftacademy.africa' target='_blank'> Read more.</a>
