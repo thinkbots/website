@@ -10,5 +10,11 @@ module.exports = {
         precision: 8,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`josefin sans\:400,600,700`],
+      },
+    },
   ],
 }
