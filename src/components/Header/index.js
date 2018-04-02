@@ -3,11 +3,13 @@ import Link from 'gatsby-link'
 
 import SocialIconLink from './SocialIconLink'
 
+import logo from '../../images/logo_sm.png'
+
 const social_icons = [
-  { name: 'facebook', link: '//facebook.com/thinkbotsIO' },
+  { name: 'facebook-f', link: '//facebook.com/thinkbotsIO' },
   { name: 'github', link: '//github.com/thinkbots' },
   { name: 'twitter', link: '//twitter.com/ThinkbotsIO' },
-  { name: 'linkedin', link: '//www.linkedin.com/company/thinkbots' },
+  { name: 'linkedin-in', link: '//www.linkedin.com/company/thinkbots' },
 ]
 
 const Header = () => (
@@ -33,7 +35,9 @@ const Header = () => (
       <div className="container">
         <div className="navbar-header">
           <a className="navbar-brand" href="/">
-            <h1>Thinkbots Logo</h1>
+            <h1>
+              <img src={logo} alt="Thinkbots" className="header-logo" />
+            </h1>
           </a>
         </div>
       </div>
