@@ -4,9 +4,14 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.9",
+    "@fortawesome/react-fontawesome": "^0.0.18",
+    "bootstrap-sass": "^3.3.7",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-sass": "^1.0.25",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
