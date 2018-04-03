@@ -1,26 +1,20 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Thinkbots Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+[Thinkbots Pty Ltd.](https://www.thinkbots.io) website
 
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
 
-And run from your CLI:
 ```sh
-gatsby new gatsby-example-site
+npm install -g gatsby-cli
 ```
 
 Then you can run it by:
+
 ```sh
-cd gatsby-example-site
-npm run develop
+cd website
+gatsby develop
 ```
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Visit the site at http://localhost:8000
