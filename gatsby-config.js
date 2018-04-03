@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Web and mobile apps development and design | Thinkbots',
+    siteUrl: `https://thinkbots.io`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,6 +16,9 @@ module.exports = {
       options: {
         fonts: [`josefin sans\:400,600,700`],
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
   ],
 }
