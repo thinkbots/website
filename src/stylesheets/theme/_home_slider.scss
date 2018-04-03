@@ -30,38 +30,4 @@
   .btn-common {
     margin-top: 20px;
   }
-
-  .preloader {
-    background: #fafafa;
-    bottom: -30px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-  }
-
-  .preloader > i {
-    color: #42a0b1;
-    font-size: 48px;
-    height: 48px;
-    left: 50%;
-    line-height: 48px;
-    margin-left: -24px;
-    margin-top: -24px;
-    position: absolute;
-    top: 50%;
-  }
-}
-
-// Animation
-.animate-in .slide-text {
-  -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms
-    both;
-  animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
-}
-
-.animate-in .slider-team {
-  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
-  animation: bounceInDown 1000ms ease-in-out 200ms both;
 }

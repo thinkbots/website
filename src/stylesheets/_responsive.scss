@@ -1,5 +1,5 @@
-@media only screen and (min-width : 768px) {
-  .nav.navbar-nav > li:hover > ul.sub-menu{
+@media only screen and (min-width: 768px) {
+  .nav.navbar-nav > li:hover > ul.sub-menu {
     -webkit-animation: fadeInUp 400ms;
     animation: fadeInUp 400ms;
     display: block;
@@ -36,8 +36,8 @@
 }
 
 /* sm */
-@media only screen and (max-width : 992px) {
-  h1{
+@media only screen and (max-width: 992px) {
+  h1 {
     font-size: 25px;
   }
 
@@ -46,7 +46,7 @@
       padding: 0;
     }
 
-    .navbar-nav.navbar-right >li a {
+    .navbar-nav.navbar-right > li a {
       padding: 20px 10px;
     }
   }
@@ -68,7 +68,7 @@
     }
 
     .slider-team {
-      bottom: -10px;
+      // bottom: -10px;
       width: 100%;
     }
   }
@@ -81,7 +81,7 @@
 }
 
 /* xs */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 22px;
   }
@@ -90,7 +90,7 @@
     font-size: 16px;
   }
 
-  .padding{
+  .padding {
     padding: 30px 0;
   }
 
@@ -117,7 +117,7 @@
     .navbar-nav.navbar-right li > a > i {
       display: inline-block;
       float: right;
-      padding: 8px 10px 8px 30px
+      padding: 8px 10px 8px 30px;
     }
 
     .navbar-nav.navbar-right li > a {
@@ -176,7 +176,7 @@
     }
   }
 
-  .social-icons.pull-right{
+  .social-icons.pull-right {
     float: left !important;
   }
 
