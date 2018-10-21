@@ -7,8 +7,7 @@ const CopyrightBar = () => (
   <div className="copyright-bar bg-concrete">
     <div className="container">
       <p className="pull-left small">
-        &copy; 2016{'-'}
-        {new Date().getFullYear()} Thinkbots Pty Ltd.{' '}
+        &copy; 2016{'-'}2018 Thinkbots Pty Ltd.{' '}
         <a
           className="iubenda-white iubenda-embed"
           href="//www.iubenda.com/privacy-policy/7848904"
